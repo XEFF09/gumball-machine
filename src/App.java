@@ -1,3 +1,5 @@
+// 6510405521 Thatpong Wongchaita 
+
 import java.util.Scanner;
 
 public class App {
@@ -29,11 +31,17 @@ public class App {
           machine.ejectQuarter();
           break;
         case 0:
+          System.out.println("\nMighty Gumball, Inc.");
+          System.out.println("Java-enabled Standing Gumball Model #2004");
+          System.out.println("Inventory: " + machine.getGumballs() + " gumballs");
           System.out.println("Machine is sold out");
           scanner.close();
           return;
 
         default:
+          System.out.println("\nMighty Gumball, Inc.");
+          System.out.println("Java-enabled Standing Gumball Model #2004");
+          System.out.println("Inventory: " + machine.getGumballs() + " gumballs");
           System.out.println("Machine is sold out");
           scanner.close();
           return;
